@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Listagem</h1>
+        </header>
+        <aside>
+            <input type="text" placeholder="Procure seu time" list="faixa"/>
+            <datalist id="faixa">
+                <option value="Santos">Times de SP</option>
+                <option value="Flamengo">Times do RJ</option>
+            </datalist>
+        </aside>
+        <main>
+            <section>
+                <figure>
+                    <img src="https://fastly.picsum.photos/id/390/400/300.jpg?hmac=Tgxc9ZIilk2LSKjHjMzgY9toUk4TTfQjoHY5T_2QXjg" alt="imagem lorem ipsum"/>
+                    <figcaption>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <details open> <!--Tag de listagem (Open faz com que a lsitagem já apareça aberta)-->
+                    <summary>Times de futebol - Veja mais</summary> <!--Título da lsitagem-->
+                    <ul> 
+                        <li>- Paulista</li>
+                        <li>- Vasco da Gama</li>
+                        <li>- Botafogo</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>Lista de pessoas</summary>
+                </details>
+            </section>
+        </main>
+        <footer>
+            <p>
+                @2023 - todos os direitos reservados
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
